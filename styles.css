@@ -1,0 +1,111 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set background and text colors */
+  body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #000;
+    text-align: center;
+    padding: 40px 0;
+    animation: fadeInUp 1s ease;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    color: #00f;
+    text-transform: uppercase;
+  }
+  
+  header p {
+    font-size: 18px;
+    color: #00f;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    animation: fadeInRight 1s ease;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #00f;
+  }
+  
+  /* Style the sections */
+  section {
+    padding: 40px;
+    animation: fadeInUp 1s ease;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    color: #00f;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+  }
+  
+  /* Style the footer */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    animation: fadeInUp 1s ease;
+  }
+  
+  footer p {
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  /* Keyframe animations */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
